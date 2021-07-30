@@ -216,7 +216,7 @@ division by zero
 * the exception class can catch any type of error, but you can catch specific errors using more specific exception classes. These are illustrated in Box 2. Note that blocks 1-3 of code are executed (and corresponding running section demonstrated) for the first to third lines of the try block respectively (with the other lines commented out). They are included in this Box all together for demonstration purposes. 
 * the generic exception block should always be the last one, otherwise, it will catch all errors and the error will never reach the more specific exceptions
 
-* https://docs.python.org/3/library/exceptions.html#bltin-exceptions (external site) There is class hierarchy for built-in exceptions and the first two tiers of this hierarchy are summarized in Box 3   Figure 1. Screen capture of instructions on GitHub for setting up a repository
+* <https://docs.python.org/3/library/exceptions.html#bltin-exceptions> (external site) There is class hierarchy for built-in exceptions and the first two tiers of this hierarchy are summarized in Box 3   Figure 1. Screen capture of instructions on GitHub for setting up a repository
 
 
 
