@@ -216,7 +216,8 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 ![Mod7Table1](https://user-images.githubusercontent.com/12945181/127681235-5fa47262-c0eb-4609-8775-9c65d077723c.png)
 
-![Mod7Fig1](https://user-images.githubusercontent.com/12945181/127681257-696940a6-8a02-48f0-9650-e1b28f6278b3.png)
+![Mod7Fig1](https://user-images.githubusercontent.com/12945181/127681257-696940a6-8a02-48f0-9650-e1b28f6278b3.png)   
+
 **Figure 1.** Screen capture of instructions on GitHub for setting up a repository
 
 * I tried out the markdown language on GitHub (Figure 2) and published it (Figure 3)
@@ -224,10 +225,12 @@ Trap errors due to interactions of humans with your code in a try-except block. 
   * my GitHub page URL: https://seattle15.github.io/ITFnd100-Mod07/
   * I checked that all the features (including the image) were performing as expected – I had to make minor changes to my list (ensuring that spaces were at the end of each entry to indicate a new line)
 
-![Mod7Fig2](https://user-images.githubusercontent.com/12945181/127681272-dc7a5175-33e2-4c58-940c-8dc805b4255a.png)
+![Mod7Fig2](https://user-images.githubusercontent.com/12945181/127681272-dc7a5175-33e2-4c58-940c-8dc805b4255a.png) 
+
 **Figure 2.** Screen captures of the ‘Edit File’ and ‘Preview’ contents demonstrating experimentation with markdown language on GitHub
 
-![Mod7Fig3](https://user-images.githubusercontent.com/12945181/127681463-e35c0ddd-c9f8-414a-94be-ba74d93a2d97.png)
+![Mod7Fig3](https://user-images.githubusercontent.com/12945181/127681463-e35c0ddd-c9f8-414a-94be-ba74d93a2d97.png)   
+
 **Figure 3.** Screen capture of published GitHub page illustrating the result of using the markdown language
 
 
