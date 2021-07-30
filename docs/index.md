@@ -96,7 +96,7 @@ ______________________________________________________________
 
 |     **Header_1**        |      **Header_2**        |      **Header_3**       |
 |:------------------      |:-------------------:     |--------------------:    |
-|   left  adjusted cell   |   centered cell          |  right sdjusted cell    | 
+|   left  adjusted cell   |   centered cell          |  right adjusted cell    | 
 |  Python                 |   Java                   | SQL                     |   
 
 
