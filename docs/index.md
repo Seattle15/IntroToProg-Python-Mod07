@@ -94,10 +94,11 @@ ______________________________________________________________
 
 **Table 1. My first table in markdown**
 
-|     **Header1**        |      **Header2**        |      **Header 3**       |
-|:------------------     |:-------------------:    |--------------------:    |
-|   content goes here    |   and more content      |  plus more here         | 
-|  apples                |   bananas               | oranges                 | 
+|     **Header_1**        |      **Header_2**        |      **Header_3**       |
+|:------------------      |:-------------------:     |--------------------:    |
+|   left  adjusted cell   |   centered cell          |  right sdjusted cell    | 
+|  Python                 |   Java                   | SQL                     |   
+
 
 * use colons to the left or right to indicate right and left line adjustment respectively
 * use two colons on either side of 3 or more dashes to indicated centered text
