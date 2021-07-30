@@ -298,6 +298,21 @@ Do not use numbers for the file's name
 Common base class for all non-exit exceptions.  
 <class 'Exception'>   
 
+**Raise exception without a try-except block**
+```
+new_file_name = input("Enter the name of the file you want to make: ")
+if new_file_name.isnumeric():
+    raise Exception("Do not use numbers for the file's name")
+```
+**Running**
+>C:\Python39\python.exe C:/_PythonClass/ModDemos/test_Mod07.py   
+Enter the name of the file you want to make: 123   
+Traceback (most recent call last):   
+File "C:\_PythonClass\ModDemos\test_Mod07.py", line 3, in <module>   
+raise Exception("Do not use numbers for the file's name")       
+Exception: Do not use numbers for the file's name      
+------------------------------------------------------------
+	
 
 ![Mod7Box4](https://user-images.githubusercontent.com/12945181/127680634-3233bbe0-2c81-4240-bead-8455b96baf63.png)   
 
