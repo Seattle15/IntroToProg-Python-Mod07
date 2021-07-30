@@ -3,6 +3,7 @@
 ### Creating GitHub Webpages
 ________________________________________________________
 
+**Styling text**  
 
 *italics*  _italics_
 
@@ -105,7 +106,7 @@ ______________________________________________________________
 
 _______________________________________________________
 
-**Add images**
+**Add image**
 
 
 
@@ -127,6 +128,6 @@ print(file_contents)
 
 ________________________________________________________
 
-URL of GitHub webpaage is: https://seattle15.github.io/IntroToProg-Python-Mod07/  
+**URL of GitHub webpaage is:** https://seattle15.github.io/IntroToProg-Python-Mod07/  
 
 
