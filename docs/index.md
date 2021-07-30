@@ -317,10 +317,9 @@ Traceback (most recent call last):
 File "C:\_PythonClass\ModDemos\test_Mod07.py", line 3, in <module>   
 raise Exception("Do not use numbers for the file's name")       
 Exception: Do not use numbers for the file's name      
-------------------------------------------------------------
+------------------------------------------------------------    
 	
-
-####creating custom exception classes
+####*creating custom exception classes*
 * you can create your own custom classes with more features
 
 ### Creating advanced GitHub pages
