@@ -148,7 +148,7 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
 # Programming with Python: Module 7   
    
 ### Working with text files
-  #### *read, write, and append modes*
+#### *read, write, and append modes*
 
 * can define a function for each in your script
 * if you try reading a file that does not exist you will get an error message; this is not the case in write and append modes
@@ -170,7 +170,6 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
 
 
 ### Working with binary files
-
 #### *pickling*
 * saving data in a binary format (instead of plain text). This can obscure the file's content (but not encrypt it) and may reduce the file's size
 * import pickle, pickle.dump(), pickle.load()
@@ -206,7 +205,7 @@ except Exception as e:
 There was an error! << Custom Message   
 Built-In Pythons error info:    
 division by zero    
-<class 'ZeroDivisionError'>    
+><class 'ZeroDivisionError'>    
 Second argument to a division or modulo operation was zero.    
 division by zero    
 --------------------------------------------------------
@@ -221,9 +220,9 @@ division by zero
 
 
 
- **Box 2**
- ------------------------------------------------------------
- **Try-except block script with specific exceptions**
+ **Box 2**   
+ ------------------------------------------------------------   
+ **Try-except block script with specific exceptions**   
  *Note that blocks 1-3 correspond to lines 1 to 3 in try block- with other lines commented out*
  ```
  try:
@@ -253,19 +252,19 @@ Please do not use Zero for the second number!
 Built-In Python error info:    
 division by zero   
 Second argument to a division or modulo operation was zero.   
-<class 'ZeroDivisionError'> 
+><class 'ZeroDivisionError'> 
 >
 >Text file must exist before running this script!        
 Built-In Python error info:    
 [Errno 2] No such file or directory: 'SomeFile.txt'   
 File not found.   
-<class 'FileNotFoundError'>   
+><class 'FileNotFoundError'>   
 >
 >There was a non-specific error!          
 Built-In Python error info:    
 name 'f' is not defined   
 Name not found globally.      
-<class 'NameError'>   
+><class 'NameError'>   
 
 -------------------------------------------------------------------
 
@@ -316,7 +315,7 @@ Enter the name of the file you want to make: 123
 Traceback (most recent call last):   
 File "C:\_PythonClass\ModDemos\test_Mod07.py", line 3, in <module>   
 raise Exception("Do not use numbers for the file's name")       
-Exception: Do not use numbers for the file's name      
+Exception: Do not use numbers for the file's name           
 ------------------------------------------------------------    
 	
 #### *creating custom exception classes*   
