@@ -266,9 +266,6 @@ Name not found globally.
 -------------------------------------------------------------------
 
  
-
-
-
 ![Mod7Box3](https://user-images.githubusercontent.com/12945181/127680612-93b555ad-3ab0-46e3-8453-5b66898c9141.png)   
 
 
@@ -278,6 +275,28 @@ Name not found globally.
 * you can use the basic exception class or other classes
 * you can use ‘raise Exception’ without a try-except block (last block row of code in Box 4)   
 
+
+**Box 4**
+----------------------------------------------------------------------
+**Try-except bloc with raise Exception script**
+```
+try:
+    new_file_name = input("Enter the name of the file you want to make: ")
+    if new_file_name.isnumeric():
+        raise Exception('Do not use numbers for the file\'s name')
+except Exception as e:
+    print("There was a non-specific error!")
+    print("Built-In Python error info: ")
+    print(e, e.__doc__, type(e), sep='\n')
+```
+**Running**
+>C:\Python39\python.exe C:/_PythonClass/ModDemos/test_Mod07.py   
+Enter the name of the file you want to make: 123   
+There was a non-specific error!   
+Built-In Python error info:    
+Do not use numbers for the file's name   
+Common base class for all non-exit exceptions.  
+<class 'Exception'>   
 
 
 ![Mod7Box4](https://user-images.githubusercontent.com/12945181/127680634-3233bbe0-2c81-4240-bead-8455b96baf63.png)   
