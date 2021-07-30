@@ -168,6 +168,20 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
   * note that the concept of write and append modes may be more clearly presented as overwrite and write to the user; so that they understand that with the ‘write mode’ they would be losing all prior data
 
 
+### working with binary files
+
+#### pickling
+* saving data in a binary format (instead of plain text). This can obscure the file's content (but not encrypt it) and may reduce the file's size
+* import pickle, pickle.dump(), pickle.load()
+
+### structured error handling (try-except)
+Trap errors due to interactions of humans with your code in a try-except block. Other languages may call if a try-catch block. Gives the programmer more control over the error handling messages that users will see
+
+#### using the exception class
+* a class is used to create objects. Python creates an Exception object when an error occurs that includes the information about the error. The except block allows you to capture a variable containing the error message generated  the error
+
+* in the except block, you must specify the type of ‘Exception as e’ – which is counter to how Python usually works. You can then print out more data about ‘e’ (Box 1)
+
 
 
 
