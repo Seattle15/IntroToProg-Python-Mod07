@@ -205,6 +205,16 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 #### creating custom exception classes
 * you can create your own custom classes with more features
 
+###creating advanced GitHub pages
+* creating a Markdown file and formatting the page. I supplemented my learning with the course ‘How to deploy a website’ on Code Academy 
+
+* use Jekyll to create a markdown (md) file; Jekyll engine converts markdown language to HTML
+* some tips for formatting with Jekyll are summarized in Table 1
+* GitHub Pages (public webpages that are hosted and published through GitHub) is used to deploy a website created with the Jekyll markdown (Figure 1)
+* create a new public repository -> create an index.md file (via Add file -> Create new file -> docs/ -> index.md)
+* you an edit the index.md file with markdown language in the ‘edit file’ tab and click ‘preview’ to see what it looks like
+
+
 
 
 
