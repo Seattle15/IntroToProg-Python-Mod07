@@ -207,8 +207,9 @@ Built-In Pythons error info:
 division by zero    
 ><class 'ZeroDivisionError'>    
 Second argument to a division or modulo operation was zero.    
-division by zero    
---------------------------------------------------------
+division by zero      
+
+--------------------------------------------------------     
  
 
 
@@ -221,7 +222,7 @@ division by zero
 
 
  **Box 2**   
- ------------------------------------------------------------   
+ ----------------------------------------------------------------  
  **Try-except block script with specific exceptions**   
  *Note that blocks 1-3 correspond to lines 1 to 3 in try block- with other lines commented out*
  ```
