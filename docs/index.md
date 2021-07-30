@@ -168,13 +168,13 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
   * note that the concept of write and append modes may be more clearly presented as overwrite and write to the user; so that they understand that with the ‘write mode’ they would be losing all prior data
 
 
-### working with binary files
+### Working with binary files
 
 #### pickling
 * saving data in a binary format (instead of plain text). This can obscure the file's content (but not encrypt it) and may reduce the file's size
 * import pickle, pickle.dump(), pickle.load()
 
-### structured error handling (try-except)
+### Structured error handling (try-except)
 Trap errors due to interactions of humans with your code in a try-except block. Other languages may call if a try-catch block. Gives the programmer more control over the error handling messages that users will see
 
 #### using the exception class
@@ -182,6 +182,17 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 * in the except block, you must specify the type of ‘Exception as e’ – which is counter to how Python usually works. You can then print out more data about ‘e’ (Box 1)
 
+#### catching specific exceptions
+* Exception class can catch any type of error, but you can catch specific errors using more specific exception classes. These are illustrated in Box 2. Note that blocks 1-3 of code are executed (and corresponding running section demonstrated) for the first to third lines of the try block respectively (with the other lines commented out). They are included in this Box all together for demonstration purposes. 
+* The generic exception block should always be the last one, otherwise, it will catch all errors and the error will never reach the more specific exceptions
+
+* https://docs.python.org/3/library/exceptions.html#bltin-exceptions (external site) There is class hierarchy for built-in exceptions and the first two tiers of this hierarchy are summarized in Box 3
+
+
+#### raising custom errors
+* use ‘raise Exception’ and you can print out a custom error message (Box 4)
+* you can use the basic exception class or other classes
+* you can use ‘raise Exception’ without a try-except block (last block row of code in Box 4)
 
 
 
