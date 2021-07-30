@@ -60,14 +60,10 @@ Or indent code with four spaces
 1) list item one   
 2) list item two   
    * nested one   
-     * nested two   
+     * nested two 
 4) list item three   
 5) list item four   
-6) list item five   
-   - nested one   
-     - nested two   
-7) list item six   
-
+  
 
 **********************************************************
 **Unordered list**
@@ -82,7 +78,9 @@ ___________________________________________________
 - [x] Task one
 - [ ] Task two
 - [ ] Task three
-___________________________________________________________
+
+______________________________________________________________
+
 **Links**
 
 [Google](https://www.google.com/)
