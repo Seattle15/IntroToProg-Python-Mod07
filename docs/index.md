@@ -319,9 +319,9 @@ raise Exception("Do not use numbers for the file's name")
 Exception: Do not use numbers for the file's name      
 ------------------------------------------------------------    
 	
-####*creating custom exception classes*
-* you can create your own custom classes with more features
-
+#### *creating custom exception classes*   
+* you can create your own custom classes with more features   
+	
 ### Creating advanced GitHub pages
 * creating a Markdown file and formatting the page. I supplemented my learning with the course ‘How to deploy a website’ on Code Academy 
 
