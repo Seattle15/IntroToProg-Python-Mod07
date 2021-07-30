@@ -128,6 +128,6 @@ print(file_contents)
 
 ________________________________________________________
 
-**URL of GitHub webpaage is:** https://seattle15.github.io/IntroToProg-Python-Mod07/  
+**URL of GitHub  is:** https://seattle15.github.io/IntroToProg-Python-Mod07/  
 
 
