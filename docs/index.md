@@ -148,21 +148,21 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
 # Programming with Python: Module 7   
    
 ### Working with text files
-#### read, write, and append modes
+  #### *read, write, and append modes*
 
 * can define a function for each in your script
 * if you try reading a file that does not exist you will get an error message; this is not the case in write and append modes
 * use ‘for loop’ with read mode to iteratively read rows of data and append it to a list (or tuple or string)
 
-#### reading data options
+#### *reading data options*
 	
 * .readline(): reads one row at a time and then advances to the next row
-   * use repeatedly to read more lines, for example with a while loop
+  * use repeatedly to read more lines, for example with a while loop
 
 * .readlines(): reads all lines of data and returns a list. .read() reads all lines and returns a string
    *everything is pulled in from file and stored in memory; rather that the option of iterating thru lines and only saving the data you wanted
 
-#### combining reading and writing
+#### *combining reading and writing*
 
 * you can write a function that contains options for all three (read, write, and append) modes (i.e., a custom wrapper function)
   * or have separate custom functions for each
@@ -171,17 +171,19 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
 
 ### Working with binary files
 
-#### pickling
+#### *pickling*
 * saving data in a binary format (instead of plain text). This can obscure the file's content (but not encrypt it) and may reduce the file's size
 * import pickle, pickle.dump(), pickle.load()
 
 ### Structured error handling (try-except)
 Trap errors due to interactions of humans with your code in a try-except block. Other languages may call if a try-catch block. Gives the programmer more control over the error handling messages that users will see
 
-#### using the exception class
+#### *using the exception class*
 * a class is used to create objects. Python creates an Exception object when an error occurs that includes the information about the error. The except block allows you to capture a variable containing the error message generated  the error
 
 * in the except block, you must specify the type of ‘Exception as e’ – which is counter to how Python usually works. You can then print out more data about ‘e’ (Box 1)   
+
+
 
 **Box 1**
 --------------------------------------------------------------------
@@ -211,11 +213,13 @@ division by zero
  
 
 
-#### catching specific exceptions
-* Exception class can catch any type of error, but you can catch specific errors using more specific exception classes. These are illustrated in Box 2. Note that blocks 1-3 of code are executed (and corresponding running section demonstrated) for the first to third lines of the try block respectively (with the other lines commented out). They are included in this Box all together for demonstration purposes. 
-* The generic exception block should always be the last one, otherwise, it will catch all errors and the error will never reach the more specific exceptions
+#### *catching specific exceptions*
+* the exception class can catch any type of error, but you can catch specific errors using more specific exception classes. These are illustrated in Box 2. Note that blocks 1-3 of code are executed (and corresponding running section demonstrated) for the first to third lines of the try block respectively (with the other lines commented out). They are included in this Box all together for demonstration purposes. 
+* the generic exception block should always be the last one, otherwise, it will catch all errors and the error will never reach the more specific exceptions
 
 * https://docs.python.org/3/library/exceptions.html#bltin-exceptions (external site) There is class hierarchy for built-in exceptions and the first two tiers of this hierarchy are summarized in Box 3   Figure 1. Screen capture of instructions on GitHub for setting up a repository
+
+
 
  **Box 2**
  ------------------------------------------------------------
@@ -270,10 +274,12 @@ Name not found globally.
 
 
 
-#### raising custom errors
+#### *raising custom errors*
 * use ‘raise Exception’ and you can print out a custom error message (Box 4)
 * you can use the basic exception class or other classes
 * you can use ‘raise Exception’ without a try-except block (last block row of code in Box 4)   
+
+
 
 
 **Box 4**
@@ -314,10 +320,10 @@ Exception: Do not use numbers for the file's name
 ------------------------------------------------------------
 	
 
-#### creating custom exception classes
+####creating custom exception classes
 * you can create your own custom classes with more features
 
-### creating advanced GitHub pages
+### Creating advanced GitHub pages
 * creating a Markdown file and formatting the page. I supplemented my learning with the course ‘How to deploy a website’ on Code Academy 
 
 * use Jekyll to create a markdown (md) file; Jekyll engine converts markdown language to HTML
@@ -327,7 +333,7 @@ Exception: Do not use numbers for the file's name
 * you an edit the index.md file with markdown language in the ‘edit file’ tab and click ‘preview’ to see what it looks like
 
 
-
+**Table 1- Jekyll markdown**    
 ![Mod7Table1](https://user-images.githubusercontent.com/12945181/127681235-5fa47262-c0eb-4609-8775-9c65d077723c.png)   
 
 
@@ -335,21 +341,19 @@ Exception: Do not use numbers for the file's name
 ![Mod7Fig1](https://user-images.githubusercontent.com/12945181/127681257-696940a6-8a02-48f0-9650-e1b28f6278b3.png)      
 
 **Figure 1.** Screen capture of instructions on GitHub for setting up a repository   
-
-
+	
 
 * I tried out the markdown language on GitHub (Figure 2) and published it (Figure 3)
   * publish steps: Settings ->GitHub pages -> Source (select main and docs and then save)
   * my GitHub page URL: https://seattle15.github.io/ITFnd100-Mod07/
   * I checked that all the features (including the image) were performing as expected – I had to make minor changes to my list (ensuring that spaces were at the end of each entry to indicate a new line)
-
-
-
+	
+	
 ![Mod7Fig2](https://user-images.githubusercontent.com/12945181/127681272-dc7a5175-33e2-4c58-940c-8dc805b4255a.png) 
 
 **Figure 2.** Screen captures of the ‘Edit File’ and ‘Preview’ contents demonstrating experimentation with markdown language on GitHub     
-
-
+	
+	
 
 ![Mod7Fig3](https://user-images.githubusercontent.com/12945181/127681463-e35c0ddd-c9f8-414a-94be-ba74d93a2d97.png)   
 
