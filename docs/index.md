@@ -332,7 +332,9 @@ Exception: Do not use numbers for the file's name
 
 
 **Table 1- Jekyll markdown**    
-![Mod7Table1](https://user-images.githubusercontent.com/12945181/127681235-5fa47262-c0eb-4609-8775-9c65d077723c.png)   
+![Mod7Table1](https://user-images.githubusercontent.com/12945181/127681235-5fa47262-c0eb-4609-8775-9c65d077723c.png)      
+Source <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github> (external site)   
+
 
 
 
@@ -343,7 +345,7 @@ Exception: Do not use numbers for the file's name
 
 * I tried out the markdown language on GitHub (Figure 2) and published it (Figure 3)
   * publish steps: Settings ->GitHub pages -> Source (select main and docs and then save)
-  * my GitHub page URL: https://seattle15.github.io/ITFnd100-Mod07/
+  * my GitHub page URL: <https://seattle15.github.io/ITFnd100-Mod07/>
   * I checked that all the features (including the image) were performing as expected – I had to make minor changes to my list (ensuring that spaces were at the end of each entry to indicate a new line)
 	
 	
