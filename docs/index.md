@@ -135,6 +135,43 @@ print(file_contents)
 
 ________________________________________________________
 
-**URL of GitHub  is:** https://seattle15.github.io/IntroToProg-Python-Mod07/  
+**URL of GitHub  is:** https://seattle15.github.io/IntroToProg-Python-Mod07/   
+   
+ ----------------------------------------------------------
+ 
+Hedy Khalatbari   
+July 30, 2021      
+Foundations of Programming: Python   
+Assignment07   
+GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
+
+# Programming with Python: Module 7   
+   
+### Working with text files
+#### read, write, and append modes: can define a function for each in your script
+
+* if you try reading a file that does not exist you will get an error message; this is not the case in write and append modes
+* use ‘for loop’ with read mode to iteratively read rows of data and append it to a list (or tuple or string)
+
+#### reading data options
+	
+* .readline(): reads one row at a time and then advances to the next row
+   * use repeatedly to read more lines, for example with a while loop
+
+* .readlines(): reads all lines of data and returns a list. .read() reads all lines and returns a string
+   *everything is pulled in from file and stored in memory; rather that the option of iterating thru lines and only saving the data you wanted
+
+#### combining reading and writing
+
+* you can write a function that contains options for all three (read, write, and append) modes (i.e., a custom wrapper function)
+  * or have separate custom functions for each
+  * note that the concept of write and append modes may be more clearly presented as overwrite and write to the user; so that they understand that with the ‘write mode’ they would be losing all prior data
+
+
+
+
+
+
+
 
 
