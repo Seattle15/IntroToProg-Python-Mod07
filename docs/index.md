@@ -25,7 +25,7 @@ In the words of Guido van Rossum
 
 **Quote inline code** `return 'Some custom error message'` with backticks on either side
 
-**Quote blosks of code:** Fence code with triple back ticks to assign its own block
+**Quote blocks of code:** Fence code with triple back ticks to assign its own block
 ```
 try:
     new_file_name = input("Enter the name of the file you want to make: ")
