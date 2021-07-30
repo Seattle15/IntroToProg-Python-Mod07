@@ -202,6 +202,9 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 ![Mod7Box4](https://user-images.githubusercontent.com/12945181/127680634-3233bbe0-2c81-4240-bead-8455b96baf63.png)
 
+#### creating custom exception classes
+* you can create your own custom classes with more features
+
 
 
 
