@@ -184,7 +184,7 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 
 
-**Box 1**
+**Box 1**   
 --------------------------------------------------------------------
 **Try-except block script**
 ```
@@ -221,7 +221,7 @@ division by zero
 
 
 
- **Box 2**   
+ **Box 2**      
  ----------------------------------------------------------------  
  **Try-except block script with specific exceptions**   
  *Note that blocks 1-3 correspond to lines 1 to 3 in try block- with other lines commented out*
@@ -282,7 +282,7 @@ Name not found globally.
 
 
 
-**Box 4**
+**Box 4**   
 ----------------------------------------------------------------------
 **Try-except bloc with raise Exception script**
 ```
