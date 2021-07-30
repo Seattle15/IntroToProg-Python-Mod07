@@ -61,7 +61,7 @@ Or indent code with four spaces
 1) list item one   
 2) list item two   
    * nested one   
-     * nested two 
+     * nested two   
 4) list item three   
 5) list item four   
   
