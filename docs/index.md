@@ -148,8 +148,9 @@ GitHub repo URL: https://github.com/Seattle15/IntroToProg-Python-Mod07
 # Programming with Python: Module 7   
    
 ### Working with text files
-#### read, write, and append modes: can define a function for each in your script
+#### read, write, and append modes
 
+* can define a function for each in your script
 * if you try reading a file that does not exist you will get an error message; this is not the case in write and append modes
 * use ‘for loop’ with read mode to iteratively read rows of data and append it to a list (or tuple or string)
 
@@ -182,10 +183,32 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 * in the except block, you must specify the type of ‘Exception as e’ – which is counter to how Python usually works. You can then print out more data about ‘e’ (Box 1)   
 
+**Box 1**
+--------------------------------------------------------------------
+**Try-except block script**
+```
+try:
+    quotient = 5/0
+    print(quotient)
+except Exception as e:
+    print("There was an error! << Custom Message")
 
-
-![Mod7Box1](https://user-images.githubusercontent.com/12945181/127680526-fd1592a5-f7ba-4d95-921d-8bcdc84481fd.png)   
-
+    print("Built-In Pythons error info: ")
+    print(e)
+    print(type(e))
+    print(e.__doc__)   # class attribute __doc__ of object
+    print(e.__str__())  # base exception; return str(self)
+```
+**Running**
+>C:\Python39\python.exe C:/_PythonClass/ModDemos/test_Mod07.py     
+There was an error! << Custom Message   
+Built-In Pythons error info:    
+division by zero    
+<class 'ZeroDivisionError'>    
+Second argument to a division or modulo operation was zero.    
+division by zero    
+--------------------------------------------------------
+ 
 
 
 #### catching specific exceptions
@@ -194,9 +217,55 @@ Trap errors due to interactions of humans with your code in a try-except block. 
 
 * https://docs.python.org/3/library/exceptions.html#bltin-exceptions (external site) There is class hierarchy for built-in exceptions and the first two tiers of this hierarchy are summarized in Box 3   Figure 1. Screen capture of instructions on GitHub for setting up a repository
 
+ **Box 2**
+ ------------------------------------------------------------
+ **Try-except block script with specific exceptions**
+ *Note that blocks 1-3 correspond to lines 1 to 3 in try block- with other lines commented out*
+ ```
+ try:
+    quotient = 5/0
+    f = open('SomeFile.txt', 'r+')  # the read plus option gives an error if file does not exist
+    f.write(quotient)  # causes an error if the file does not exist
 
+except ZeroDivisionError as e:                       #block 1
+    print("Please do not use Zero for the second number!")
+    print("Built-In Python error info: ")
+    print(e, e.__doc__, type(e), sep='\n')
 
-![Mod7Box2](https://user-images.githubusercontent.com/12945181/127680588-1721d72a-788c-4df3-b474-cdb0507121fc.png)   
+except FileNotFoundError as e:                       # block 2
+    print("Text file must exist before running this script!")
+    print("Built-In Python error info: ")
+    print(e, e.__doc__, type(e), sep='\n')
+
+except Exception as e:                               # block 3
+    print("There was a non-specific error!")
+    print("Built-In Python error info: ")
+    print(e, e.__doc__, type(e), sep='\n')
+
+```
+**Running**
+>C:\Python39\python.exe C:/_PythonClass/ModDemos/test_Mod07.py  
+Please do not use Zero for the second number!        
+Built-In Python error info:    
+division by zero   
+Second argument to a division or modulo operation was zero.   
+<class 'ZeroDivisionError'> 
+>
+>Text file must exist before running this script!        
+Built-In Python error info:    
+[Errno 2] No such file or directory: 'SomeFile.txt'   
+File not found.   
+<class 'FileNotFoundError'>   
+>
+>There was a non-specific error!          
+Built-In Python error info:    
+name 'f' is not defined   
+Name not found globally.      
+<class 'NameError'>   
+
+-------------------------------------------------------------------
+
+ 
 
 
 
